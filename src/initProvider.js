@@ -44,6 +44,6 @@ function setGlobalProvider (providerInstance) {
 }
 
 module.exports = {
-  initProvider,
+  initProviderMadWallet,
   setGlobalProvider,
 }
