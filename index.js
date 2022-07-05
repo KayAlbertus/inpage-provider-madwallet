@@ -1,8 +1,8 @@
 const MetaMaskInpageProvider = require('./src/MetaMaskInpageProvider')
-const { initProvider, setGlobalProvider } = require('./src/initProvider')
+const { initProviderMadWallet, setGlobalProvider } = require('./src/initProviderMadWallet')
 
 module.exports = {
   MetaMaskInpageProvider,
-  initProvider,
+  initProviderMadWallet,
   setGlobalProvider,
 }

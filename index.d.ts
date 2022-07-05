@@ -100,7 +100,7 @@ export class MetaMaskInpageProvider extends EventEmitter {
  * Initializes a MetaMaskInpageProvider and (optionally) assigns it as window.ethereum.
  * @returns The initialized provider (whether set or not).
  */
-export function initProviderMadWallet (
+export function initProvider (
   options: Pick<MetaMaskInpageProviderOptions, 'maxEventListeners' | 'shouldSendMetadata'> & {
 
     /** A Node.js duplex stream. */
