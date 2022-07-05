@@ -34,6 +34,7 @@ let log
 
 module.exports = class MetaMaskInpageProvider extends SafeEventEmitter {
 
+
   /**
    * @param {Object} connectionStream - A Node.js duplex stream
    * @param {Object} options - An options bag
@@ -70,7 +71,7 @@ module.exports = class MetaMaskInpageProvider extends SafeEventEmitter {
 
     super()
 
-    this.isDesktop = true
+    this.isMadWallet = true
 
     this.setMaxListeners(maxEventListeners)
 
